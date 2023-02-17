@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: reboundrp.net
+Token: f306b69820b2f7b967f8c791c572f5b5ceda45bdd5c0157a0ba974d4492b0058

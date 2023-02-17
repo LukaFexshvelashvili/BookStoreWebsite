@@ -1,0 +1,212 @@
+.Section1 {
+  background: #fdf8ee;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-top: 170px;
+  padding-bottom: 250px;
+  overflow: hidden;
+}
+.Section1 .section_splitter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Section1 .texter {
+  transition: 1s;
+  width: 480px;
+}
+.Section1 .texter .head {
+  font-size: 69px;
+  font-family: r_extrabold;
+  color: #050c26;
+  margin: 0;
+}
+.Section1 .texter .head span {
+  color: #ff7426;
+}
+.Section1 .texter .desc {
+  font-family: p_regular;
+  color: #8a8a8a;
+  line-height: 30px;
+}
+.Section1 .texter .search {
+  margin-top: 50px;
+  height: 50px;
+  width: 100%;
+  border-radius: 40px;
+  background: white;
+  font-family: r_semibold;
+  color: #0f335e;
+  font-size: 18px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.Section1 .texter .search img {
+  position: absolute;
+  left: 18px;
+  height: 20px;
+  cursor: pointer;
+}
+.Section1 .texter .search input {
+  height: 100%;
+  width: 100%;
+  border: 0;
+  padding: 0 10px;
+  padding-left: 50px;
+}
+.Section1 .texter .search input:focus {
+  outline: 0;
+}
+.Section1 .texter .search input::placeholder {
+  color: #0f335e;
+}
+.Section1 .texter .search button {
+  position: absolute;
+  right: 0;
+  background: #4d2c5e;
+  border-radius: 40px;
+  color: white;
+  padding: 10px 40px;
+  cursor: pointer;
+  border: 0;
+}
+.Section1 .imager {
+  transition: 1s;
+  position: relative;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Section1 .imager img {
+  position: absolute;
+  width: 100%;
+}
+
+.info_center {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.info_center .info_block {
+  overflow: hidden;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: -150px;
+  width: 85%;
+  border-radius: 30px;
+  background: #4d2c5e;
+  padding: 60px 20px;
+}
+.info_center .info_block .triplet {
+  display: flex;
+  align-items: center;
+}
+.info_center .info_block .triplet .sider {
+  transition: 1s;
+  display: flex;
+  justify-content: center;
+  margin: 0 30px;
+}
+.info_center .info_block .triplet .sider .logoside {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  height: 90px;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info_center .info_block .triplet .sider .textside {
+  margin-left: 20px;
+}
+.info_center .info_block .triplet .sider .textside .head {
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  font-family: r_bold;
+  margin-bottom: 8px;
+}
+.info_center .info_block .triplet .sider .textside .desc {
+  margin: 0;
+  font-family: p_regular;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 1200px) {
+  .Section1 {
+    padding-top: 100px;
+  }
+  .Section1 .section_splitter .texter {
+    width: 100%;
+    text-align: center;
+  }
+  .Section1 .section_splitter .imager {
+    width: 100%;
+    margin-top: 400px;
+    margin-bottom: 600px;
+  }
+  .info_center .info_block {
+    bottom: -150px;
+  }
+  .info_center .info_block .triplet {
+    flex-wrap: wrap;
+  }
+  .info_center .info_block .triplet .sider {
+    margin: 30px;
+  }
+}
+@media (max-width: 524px) {
+  .sider {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+  }
+  .Section1 .texter .head {
+    font-size: 55px;
+  }
+  .Section1 .texter .search img {
+    height: 15px;
+    aspect-ratio: 1;
+  }
+  .Section1 .texter .search input {
+    font-size: 13px;
+    padding-left: 40px;
+  }
+  .Section1 .texter .search button {
+    padding: 10px 25px;
+    font-size: 13px;
+  }
+  .Section1 .section_splitter .imager {
+    margin-top: 250px;
+    margin-bottom: 750px;
+  }
+  .info_center .info_block {
+    bottom: -100px;
+    padding: 10px;
+    width: 95%;
+  }
+  .info_center .info_block .triplet {
+    flex-wrap: wrap;
+  }
+  .info_center .info_block .triplet .sider {
+    margin: 30px;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .info_center .info_block .triplet .sider .logoside {
+    height: 90px;
+    width: 90px;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  .info_center .info_block .triplet .sider .textside {
+    margin: 0;
+    text-align: center;
+  }
+}

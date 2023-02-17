@@ -1,0 +1,28 @@
+.text_starter {
+  transition: 1s;
+}
+.text_starter .t_head {
+  text-align: center;
+  font-size: 36px;
+  font-family: r_semibold;
+}
+.text_starter .t_desc {
+  text-align: center;
+  color: #8a8a8a;
+  font-family: p_regular;
+  font-size: 20px;
+}
+
+@media (max-width: 502px) {
+  .text_starter .t_head {
+    text-align: center;
+    font-size: 26px;
+    font-family: r_semibold;
+  }
+  .text_starter .t_desc {
+    text-align: center;
+    color: #8a8a8a;
+    font-family: p_regular;
+    font-size: 18px;
+  }
+}

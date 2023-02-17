@@ -1,0 +1,17 @@
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 5;
+}
+.logo_img {
+  height: 58px;
+  width: 52px;
+}
+.logo_text {
+  margin: 0;
+  margin-left: 15px;
+  font-family: r_semibold;
+  font-size: 23px;
+}

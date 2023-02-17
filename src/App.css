@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+#root {
+  background: #fdf8ee;
+}
+body::-webkit-scrollbar {
+  background: #ffffff;
+  width: 15px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #4d2c5e;
+}
+
+@font-face {
+  font-family: p_regular;
+  src: url("./fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: r_bold;
+  src: url("./fonts/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: r_extrabold;
+  src: url("./fonts/Roboto-BoldCondensed.ttf");
+}
+@font-face {
+  font-family: r_semibold;
+  src: url("./fonts/Poppins-SemiBold.ttf");
+}
+.come0 {
+  opacity: 0;
+}
+.come1 {
+  transform: translatex(-200px);
+  opacity: 0;
+}
+.come2 {
+  transform: translatex(200px);
+  opacity: 0;
+}
+.come3 {
+  transform: translateY(-200px);
+  opacity: 0;
+}
+.come4 {
+  transform: translateY(200px);
+  opacity: 0;
+}
